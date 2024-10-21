@@ -19,8 +19,11 @@ public class Fundament : IFundament
 
     public void SumTwoNumbers()
     {
-        int a = Console.ReadLine();
-        return a + b;
+        Console.WriteLine("Enter first number");
+        int a = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("Enter second number");
+        int b = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine($"Sum = {a + b}");
     }
 
     public double SumTwoNumbersOfGivenType(double a, double b)
@@ -34,9 +37,9 @@ public class Fundament : IFundament
     public void PrintFibonnaciSeries()
     {
         // TODO: Implement the Fibonacci sequence
-        int a = 0;
-        int b = 1;
-        int c;
+        // int a = 0;
+        // int b = 1;
+        // int c;
 
         /* 
         c = a + b

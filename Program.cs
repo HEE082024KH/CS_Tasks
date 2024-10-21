@@ -10,6 +10,7 @@ class Program
         fundament.CheckOddOrEven(3);
         // Display fact
         fundament.GetAInterestingFact("This fact is quite interesting");
-        // 
+        // Sum two numbers
+        fundament.SumTwoNumbers();
     }
 }
