@@ -12,5 +12,7 @@ class Program
         fundament.GetAInterestingFact("This fact is quite interesting");
         // Sum two numbers
         fundament.SumTwoNumbers();
+        // Sum two given numbers
+        Console.WriteLine(fundament.SumTwoNumbersOfGivenType(1, 1));
     }
 }

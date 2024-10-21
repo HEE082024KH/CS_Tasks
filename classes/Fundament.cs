@@ -28,7 +28,15 @@ public class Fundament : IFundament
 
     public double SumTwoNumbersOfGivenType(double a, double b)
     {
-        throw new NotImplementedException();
+        // EKSTRA CODE:
+        // Console.WriteLine("Enter first number");
+        // double c = Convert.ToInt32(Console.ReadLine());
+        // Console.WriteLine("Enter second number");
+        // double d = Convert.ToInt32(Console.ReadLine());
+        // Console.WriteLine($"Sum = {c + d}");
+
+        // Actual solution
+        return a + b;
     }
 
 
