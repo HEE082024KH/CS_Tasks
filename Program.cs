@@ -15,6 +15,8 @@ class Program
         // // Sum two given numbers
         // Console.WriteLine(fundament.SumTwoNumbersOfGivenType(1, 1));
         // Output fibonacci sequence
-        fundament.PrintFibonnaciSeries(10);
+        // fundament.PrintFibonnaciSeries(10);
+        // Reverse the given string
+        Console.WriteLine(fundament.ReverseString("Reverse this text"));
     }
 }
